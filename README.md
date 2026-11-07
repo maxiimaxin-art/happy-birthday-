@@ -413,15 +413,15 @@ function burst(){
 var STORY=[
   {t:'How we met', img:'https://github.com/maxiimaxin-art/happy-birthday-/blob/main/WhatsApp%20Image%202026-11-07%20at%208.11.28%20PM.jpeg?raw=true',   // <-- photo 1 goes inside the quotes
    s:'We met when we were in KG. That’s when I saw her for the first time. She was the only friend I had. At that time I didn’t realize that I was going to fall in love with her.'},
-  {t:'Our first meet', img:'photos/photo2.jpg',   // <-- photo 2
+  {t:'Our first meet', img:'https://github.com/maxiimaxin-art/happy-birthday-/blob/main/WhatsApp%20Image%202026-11-07%20at%208.15.37%20PM%20(1).jpeg?raw=true',   // <-- photo 2
    s:'After that, I met her again after fourteen years. At that time, she didn’t recognize me, but I remembered her. She didn’t know that she was going to fall in love with me. But that moment was really nice.'},
-  {t:'Our first bike ride', img:'photos/photo3.jpg',   // <-- photo 3
+  {t:'Our first bike ride', img:'https://github.com/maxiimaxin-art/happy-birthday-/blob/main/WhatsApp%20Image%202026-11-07%20at%208.15.37%20PM%20(2).jpeg?raw=true',   // <-- photo 3
    s:'I don’t even have words for it. For her… when we went for a ride together for the first time, the smile on her face is still in my mind. She was so happy.'},
-  {t:'Our favourite place', img:'photos/photo4.jpg',   // <-- photo 4
+  {t:'Our favourite place', img:'https://github.com/maxiimaxin-art/happy-birthday-/blob/main/WhatsApp%20Image%202026-11-07%20at%208.15.37%20PM%20(4).jpeg?raw=true',   // <-- photo 4
    s:'We don’t have a favorite place. Wherever we’re together, wherever we’re sitting together, that’s our favorite place. For me, she is my favorite place. Being with her.'},
-  {t:'Laughing together', img:'photos/photo5.jpg',   // <-- photo 5
+  {t:'Laughing together', img:'https://github.com/maxiimaxin-art/happy-birthday-/blob/main/WhatsApp%20Image%202026-11-07%20at%208.15.37%20PM%20(3).jpeg?raw=true',   // <-- photo 5
    s:'Maybe we’re far apart from each other. But whenever we do come together, what I always remember from those times is us smiling.'},
-  {t:'Forever to go', img:'photos/photo6.jpg',   // <-- photo 6
+  {t:'Forever to go', img:'https://github.com/maxiimaxin-art/happy-birthday-/blob/main/WhatsApp%20Image%202026-11-07%20at%208.15.37%20PM.jpeg?raw=true',   // <-- photo 6
    s:'I just want one thing in life. I want you to be with me. Just like this, with our hands holding each other’s, I want us to stay together till the very end, and keep living life together.'}
 ];
 var chain=$('chain'),IH=300;
@@ -627,7 +627,7 @@ seal.addEventListener('click',function(){
 });
 // ================= PAGE 5: THREE GIFT BOXES =================
 // The videos for the gifts. Upload them to your GitHub repository and write their paths here (same folder: 'gift1.mp4', in a folder: 'videos/gift1.mp4').
-var VIDEOS=['gift1.mp4'];
+var VIDEOS=['https://raw.githubusercontent.com/maxiimaxin-art/happy-birthday-/0009c9345fdc669a09737203669f915654c2dda1/surprice.mp4'];
 var p5=$('p5'),g5s=$('g5s'),giftsEl=$('gifts'),vidov=$('vidov'),gv=$('gv'),vplay=$('vplay'),vend=$('vend'),vnext=$('vnext');
 var cur=0,busy=false,wasSong=false,vStarted=false,vErr=false;
 var GC=[['#e63e78','#ff7fa3']];
