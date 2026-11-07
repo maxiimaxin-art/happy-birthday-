@@ -411,7 +411,7 @@ function burst(){
 //         Leave it empty ('') to keep the pink heart placeholder.
 // To add or remove a frame, add or delete one line (keep the comma at the end).
 var STORY=[
-  {t:'How we met', img:'photos/photo1.jpg',   // <-- photo 1 goes inside the quotes
+  {t:'How we met', img:'https://github.com/maxiimaxin-art/happy-birthday-/blob/main/WhatsApp%20Image%202026-11-07%20at%208.11.28%20PM.jpeg?raw=true',   // <-- photo 1 goes inside the quotes
    s:'We met when we were in KG. That’s when I saw her for the first time. She was the only friend I had. At that time I didn’t realize that I was going to fall in love with her.'},
   {t:'Our first meet', img:'photos/photo2.jpg',   // <-- photo 2
    s:'After that, I met her again after fourteen years. At that time, she didn’t recognize me, but I remembered her. She didn’t know that she was going to fall in love with me. But that moment was really nice.'},
