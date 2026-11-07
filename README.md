@@ -603,7 +603,7 @@ var SONG_SRC='kannukulla.mp3',song=null,songStarted=false;
 function unlockSong(){
   if(song)return;
   try{
-    song=new Audio(SONG_SRC);song.preload='auto';song.muted=true;
+    song=new Audio(SONG_SRC);song.preload='"C:\Users\Deepthi shalima\Downloads\Kannukulla - BestTamilan (2).mp3"';song.muted=true;
     var pr=song.play();
     if(pr&&pr.then)pr.then(function(){if(!songStarted){song.pause();song.currentTime=0}song.muted=false}).catch(function(){song.muted=false});
   }catch(e){}
